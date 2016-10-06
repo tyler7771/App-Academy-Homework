@@ -1,0 +1,9 @@
+<h1>Sign Up!</h1>
+
+<%= render "shared/form", url: users_url %>
+
+<%= link_to("Sign in", new_session_url) %>
+
+<% content_for :footer do %>
+  <p>This is the cats sign up page.</p>
+<% end %>

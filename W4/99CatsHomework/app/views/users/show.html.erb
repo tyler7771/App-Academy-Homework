@@ -1,0 +1,10 @@
+<h1>Hi there!</h1>
+
+<p>
+  You are <%= @user.username %>
+</p>
+<br>
+
+<% content_for :footer do %>
+  <p>This is your profile page.</p>
+<% end %>
